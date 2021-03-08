@@ -25,9 +25,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/vdemeester/k8s-pkg-credentialprovider"
 	utilnet "k8s.io/apimachinery/pkg/util/net"
 	"k8s.io/klog/v2"
-	"github.com/vdemeester/k8s-pkg-credentialprovider"
 )
 
 const (
